@@ -1,6 +1,6 @@
-#Instalación de laboratorio Dev.
+# Instalación de laboratorio Dev.
 
-##Descarga de software:
+## Descarga de software:
 
 - Visual studio Code.
 - Sublime text.
@@ -10,9 +10,9 @@
 - JDK 8,11 o 17.
 - Maven.
 
-##Instalación de software (unicamente si no tienen .exe para windows):
+## Instalación de software (unicamente si no tienen .exe para windows):
 
-###- Docker:
+### - Docker:
 	Ejecutar el .exe de instalacion.
 	Reiniciar
 	Descargar el kernel einstalar el .msi
@@ -20,7 +20,7 @@
 	wsl --set-default-version 2
 	Reiniciar
 
-###- Instalación de JDK java
+### - Instalación de JDK java
 	Descargar de https://adoptium.net/es/temurin/releases/?version=17
 	Descomprimir en alguna carpeta de facil acceso o crear una en el disco c:
 	Abrir las variables de entorno(buscar variables de entorno en el buscador de windows)
@@ -31,10 +31,10 @@
 
 	Abrir una terminal y escribir el comando"java -version"
 
-###- Instalacion de Maven
+### - Instalacion de Maven
 	(El mismo proceso que con la instalacion de un JDK)
 
-##Extenciones de visual studi code para una api de spring:
+## Extenciones de visual studi code para una api de spring:
 
 - Java extension pack.
 - Spring extension pack.
