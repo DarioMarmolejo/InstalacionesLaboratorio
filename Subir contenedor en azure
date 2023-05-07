@@ -1,0 +1,7 @@
+login:
+podman login <"nombre del servidor">.azurecr.io
+
+podman -t <"nombre del servidor">.azurecr.io/<"nombre de la imagen">:<"version"> .
+
+podman push <"nombre del servidor">.azurecr.io/<"nombre de la imagen">:<"version">
+
